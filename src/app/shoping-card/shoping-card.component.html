@@ -1,0 +1,12 @@
+<div class="wrapperShopingCard">
+  <div *ngFor="let product of productList" class="wrapperShopingCardProduct">
+    <div class="productImageWrapper prodCard">
+      <img src="./../../assets/products/{{product.img}}" alt="" class = "productImage">
+      <div class="setWrapper prodCard">
+          <p class="productName">{{product.productName}}</p>
+          <p class="productName">{{product.cena}}</p>
+          <input type="checkbox"/>
+      </div>
+    </div>
+  </div>
+</div>

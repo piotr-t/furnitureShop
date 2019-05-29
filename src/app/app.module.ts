@@ -7,20 +7,25 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductComponent } from './product/product.component';
+import { FooterComponent } from './footer/footer.component';
+import { ShopingCardComponent } from './shoping-card/shoping-card.component';
+import { FurnitureShopService } from './furniture-shop.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProductPageComponent,
-    ProductComponent
+    ProductComponent,
+    FooterComponent,
+    ShopingCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [FurnitureShopService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

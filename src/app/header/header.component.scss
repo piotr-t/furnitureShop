@@ -12,3 +12,20 @@
         }
     }
 }
+
+.hederWrapperLink{
+    position: absolute;
+    z-index: 100;
+    top: 130px;
+    right: 50px;
+    button{
+        border: 1px solid rgb(221, 220, 220);
+        background-color: rgb(188, 194, 194);
+        height: 70px;
+        border-radius: 2px;
+        width: 140px;
+    }
+    button:hover{
+        background-color: rgb(224, 224, 224);
+    }
+}
