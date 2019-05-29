@@ -1,0 +1,26 @@
+.productWrapper {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+.productImage{
+    height: 300px;
+    width: 400px;
+}
+.productSpanCena{
+    color: rgb(51, 43, 43);
+    font-weight: 600;
+}
+.wrapperDisplayBlock{
+    display: inline-block;
+}
+.wrapperButtonAdd{
+    position: relative;
+    //left: 100px;
+    top:-300px;
+    button{
+        position: relative;
+    }
+}

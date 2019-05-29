@@ -1,4 +1,9 @@
-<div class="productWrapper">
-  {{src}}
-
+<div class="productWrapper wrapperDisplayBlock">
+    <div class="productWrapperImageCost wrapperDisplayBlock">
+<img src="./../../assets/products/{{mebel.img}}" class="productImage" alt={{mebel.desc}} name={{mebel.desc}} >
+ <p class="productCena">Cena: <span class="productSpanCena">{{mebel.cena}} zł</span></p> 
+</div>
+<div class="wrapperDisplayBlock wrapperButtonAdd">
+        <button (click)="toggleButtonValue(mebel)" >{{add}}</button>
+</div>
 </div>
