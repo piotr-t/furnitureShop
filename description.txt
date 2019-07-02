@@ -1,0 +1,3 @@
+
+https://angular.io/cli/new
+ng new furnitureShop --style=scss --skipTests=true --routing=true // --minimal=true

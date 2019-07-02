@@ -10,6 +10,7 @@ import { ProductComponent } from './product/product.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShopingCardComponent } from './shoping-card/shoping-card.component';
 import { FurnitureShopService } from './furniture-shop.service';
+import { AppDirectiveDirective } from './app-directive.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FurnitureShopService } from './furniture-shop.service';
     ProductPageComponent,
     ProductComponent,
     FooterComponent,
-    ShopingCardComponent
+    ShopingCardComponent,
+    AppDirectiveDirective
   ],
   imports: [
     BrowserModule,
