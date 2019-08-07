@@ -6,8 +6,8 @@ import { ContactUsComponent } from './contactUs/contact-us/contact-us.component'
 
 const routes: Routes = [
   { path: '', component: ProductPageComponent },
-  { path: 'ShopingCard', component: ShopingCardComponent },
-  { path: 'ContactUs', component: ContactUsComponent }
+  { path: 'ShopingCard', component: ShopingCardComponent }
+
 ];
 
 @NgModule({
