@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ShopingCardComponent } from './shoping-card/shoping-card.component';
 import { FurnitureShopService } from './furniture-shop.service';
 import { AppDirectiveDirective } from './app-directive.directive';
+import { ContactUsComponent } from './contactUs/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AppDirectiveDirective } from './app-directive.directive';
     ProductComponent,
     FooterComponent,
     ShopingCardComponent,
-    AppDirectiveDirective
+    AppDirectiveDirective,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
